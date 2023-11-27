@@ -1,0 +1,105 @@
+.allparts{
+    background-color:#ffeabf;
+}
+
+html, body {
+    height: 100%;
+    background-color:#ffffff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.navvy{
+    background-color:#40cbff;
+}
+.navbar-light, 
+.navbar-toggler{
+    color:#000000;
+    border-color:#000000;
+}
+.navbar-light, 
+.navbar-toggler:hover{
+    color:#000000;
+    border-color:#000000;
+}
+
+.container {
+    background-color:#ffeabf;
+    color:#000000;
+}
+
+.lead{
+    color:#000000;
+}
+
+main {
+    flex: 1 0 auto;
+    
+}
+.hero-text{
+    font-size: 8vw;
+    opacity: .50;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.card-body{
+    background-color:#6b6262;
+    
+}
+
+.btn-outline-dark{
+    background-color:#ffdfd5;
+}
+.btn-outline-dark:hover{
+    background-color:#ffdfd5;
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+header {
+    background: no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+.color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+}
+
+.singleCol {
+    max-width: 750px;
+    background-color:#ffeabf;
+    color:#000000;
+}
+.contact{
+   color:#000000;
+}
+
+footer {
+    background-color: #ffeabf;
+    color: wheat;
+}
+
+footer a{
+    color: #000000;
+}
+
+footer a:hover{
+    color: #dfdfdf;
+}
+
+.nav-link-active {
+    text-decoration: none;
+}
+
+@media (max-width: 767.98px) {
+    .color-overlay {
+        min-height: 30vh;
+    }
+}
